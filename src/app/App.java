@@ -2,7 +2,7 @@ package app;
 
 import java.sql.Connection;
 
-import comandosDeparment.ImprimirDepartment;
+import comandosDeparment.inserirDepartment;
 import conexao.Conexao;
 
 public class App {
@@ -11,7 +11,7 @@ public class App {
 		
 		Connection conexao = Conexao.iniciarConexao();
 		
-			ImprimirDepartment.imprimir(conexao);
+			inserirDepartment.inserir(conexao);
 		
 		Conexao.fecharConexao();
 
