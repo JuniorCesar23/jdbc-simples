@@ -2,7 +2,7 @@ package app;
 
 import java.sql.Connection;
 
-import comandosDeparment.inserirDepartment;
+import comandosDeparment.AtualizarDepartment;
 import conexao.Conexao;
 
 public class App {
@@ -11,7 +11,7 @@ public class App {
 		
 		Connection conexao = Conexao.iniciarConexao();
 		
-			inserirDepartment.inserir(conexao);
+			AtualizarDepartment.atualizar(conexao);
 		
 		Conexao.fecharConexao();
 

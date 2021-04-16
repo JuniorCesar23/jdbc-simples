@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import conexao.Conexao;
 import conexao.FecharStatement;
 
-public class inserirDepartment {
+public class InserirDepartment {
 
 	private static PreparedStatement state = null;
 	
