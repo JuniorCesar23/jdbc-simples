@@ -1,4 +1,4 @@
-package banco;
+package conexao;
 
 public class ExcessaoBanco extends RuntimeException {
 

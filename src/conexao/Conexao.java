@@ -1,4 +1,4 @@
-package banco;
+package conexao;
 
 import java.io.FileInputStream;
 import java.io.IOException;
