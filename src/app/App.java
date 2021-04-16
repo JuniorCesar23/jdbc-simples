@@ -2,8 +2,9 @@ package app;
 
 import java.sql.Connection;
 
-import comandosDeparment.AtualizarDepartment;
+import comandosDeparment.DeletarDepartment;
 import conexao.Conexao;
+
 
 public class App {
 
@@ -11,7 +12,7 @@ public class App {
 		
 		Connection conexao = Conexao.iniciarConexao();
 		
-			AtualizarDepartment.atualizar(conexao);
+			DeletarDepartment.deletar(conexao);
 		
 		Conexao.fecharConexao();
 
